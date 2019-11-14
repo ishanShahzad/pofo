@@ -32,7 +32,7 @@ body {
     height: 35px;
     width: 35px;
     background-color: grey;
-    position: absolute;
+    position: fixed;
     right: 40px;
     bottom: 20px;
     border-radius: 100%;
