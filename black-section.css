@@ -1,0 +1,28 @@
+.black{
+    width:100%;
+    height:70vh;
+    background:black;
+    display:flex;
+    flex-direction:column;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+}
+.black p{
+    color:grey;
+    font-size: 30px;
+}
+.black h1{
+    color:white;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+.black button{
+    padding:1.5vh 7vh;
+    color:white;
+    font-size: 20px;
+    background:rgb(226, 8, 117);
+    border:2px solid transparent;
+    border-radius:30px;
+}
