@@ -1,0 +1,33 @@
+.gorgeous{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.gorgeous h4{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #232323;
+}
+.gorgeous p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f6f6f;   
+}
+.slides-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-right: -8px;
+    margin-left: -15px;
+    justify-content: space-around;
+}
+.slides-1 img{
+    padding-left: 25px;
+    width: 240px;
+    height: 145px;
+}
