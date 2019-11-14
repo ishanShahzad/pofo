@@ -1,0 +1,49 @@
+
+.Blog-Styles{
+    width: 100%;
+    height:130vh;
+    background-color: black;
+    text-align: center;
+
+}
+.Blog-Styles h1{
+    text-align: center;
+    color: white;
+    padding-top:10vh;
+    box-sizing: border-box;
+}
+.Blog-Styles p{
+    text-align: center;
+    color: gray;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+/* Center-Content */
+.blog-styles-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+}
+.blog-styles-cont img{
+    width:70%;
+}
+/* Button */
+.Blog-Styles button{
+    width: 20%;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: #ff2150;
+    color: white;
+    border-style: none;
+    margin-top:6vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+} 
+/* button Hover */
+.Blog-Styles button:hover{
+    border:1px solid  #ff2150;
+    background: none;
+} 
