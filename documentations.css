@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.documentation{
+	height:150vh;
+	width:100%;
+	background:black;
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+}
+
+.documentation .doc-all-content{
+	height:140vh;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.documentation .doc-all-content .doc-text{
+	color:white;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.documentation .doc-all-content .doc-text h6{
+	font-size:4vh;
+}
+
+
+.documentation .doc-all-content .doc-text p{
+	color:gray;
+	width:55%;
+	font-size:2.5vh;
+	text-align:center;
+	top: 2vh;
+	word-spacing:2px;
+	line-height:2;
+	position: relative;
+}
+
+.documentation .doc-all-content .doc-boxes{
+	width:45%;
+	color:white;
+	display:flex;
+	color:gray;
+	justify-content:space-between;
+	font-size:2vh;
+}
+
+.documentation .doc-all-content .doc-boxes .doc-box1{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.documentation .doc-all-content .doc-boxes .doc-box1 p{
+	line-height:3;
+}
+
