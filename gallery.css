@@ -1,0 +1,112 @@
+*
+{
+	margin:0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.gallery
+{
+   width: 100%;
+   height:360vh;
+}
+.gallery .nav
+{
+   width: 100%;
+   height: 10vh;
+   background-color: #000000;
+}
+.gallery .nav ul
+{
+	width: 50%;
+	height: 10vh;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left:25%;
+}
+.gallery .nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 80px;
+	height: 50px;
+	
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+	border-radius: 40%;
+}
+.gallery .nav ul li .active
+{
+	background-color: #202020;
+}
+.gallery .nav ul li a:hover
+{
+	background-color: #202020;
+}
+.gallery .images
+{
+	width: 100%;
+	height: 350vh;
+   background-color: #0E0F10;
+   
+
+}
+.gallery #all
+{
+	width: 100%;
+	height: 100%;
+	/*border:1px solid white;*/
+	position: absolute;top:10vh;
+	display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   padding-top: 6%;
+   box-sizing: border-box;
+}
+.gallery #all .image
+{
+	width: 23%;
+	height: 300px;
+	margin-top: 30px;
+	transition: 0.35s;
+}
+.gallery #all .image img
+{
+	width: 100%;
+	height: 90%;
+    transition: 0.35s;
+    margin-top: 0px;
+    position: relative;
+}
+.gallery #all .image h3
+{
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+}
+.gallery #all .image:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 90%;
+	background-color: rgba(0,0,0,0.4);
+	opacity: 0;
+	transition: 0.35s;
+}
+.gallery #all .image:hover
+{
+  
+    cursor: pointer;
+    margin-top: 20px;
+}
+.gallery #all .image:hover::after
+{
+    opacity: 1;
+}
