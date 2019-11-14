@@ -1,0 +1,76 @@
+.hero{
+    background: black;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+     justify-content: center; 
+     opacity: .86;
+}
+.hero-start{
+    height: 70vh;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.hero-start>h3{
+    font-size: 15px;
+    margin-left: 60px;
+    color: slategrey;
+    margin-top: 150px;
+}
+.hero-start>h1{
+    font-size: 40px;
+    margin-left: 60px;
+    color: white;
+    margin-top: 20px;
+}
+.hero-end{
+    height: 70vh;
+    width: 60%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-flow:row wrap;
+}.hero-end .img2{
+    height: 30vh;
+    width: 43%;
+    margin-left: 80px;
+    filter:blur(4px);
+   
+}
+.hero-end .img3{
+    height: 30vh;
+    width: 40%;
+    /* margin-left: 10px; */
+}
+.hero-end .img4{
+    height: 40vh;
+    width: 48%;
+    margin-left: 10px;
+}
+.hero-end .img5{
+    height: 40vh;
+    width: 48%;
+    margin-left: 10px;
+}
+.hero-foot{
+    height: 40vh;
+    width: 100%;
+    /* border:1px solid cyan; */
+}
+.img6{
+    height: 40vh;
+    width: 100%;
+    opacity: .9;
+}
+.btn{
+    height: 5vh;
+    width: 30%;
+    border: 1px solid rgb(182, 20, 74);
+    border-radius: 10px;
+    margin-left: 60px;
+    color:rgb(182, 20, 74);
+}
+.btn:hover{
+    background: rgb(182, 20, 74);
+    color: white;
+    transition-duration: 1s;
+}
